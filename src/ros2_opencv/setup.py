@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools','launch','launch_ros', ],
     zip_safe=True,
     maintainer='biswash',
     maintainer_email='077bme014.biswash@pcampus.edu.np',

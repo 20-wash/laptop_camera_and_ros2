@@ -1,0 +1,44 @@
+[1.145s] Invoking command in '/home/biswash/ws_ros2_camera/src/ros2_opencv': PYTHONPATH=/home/biswash/ws_ros2_camera/build/ros2_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_opencv build --build-base /home/biswash/ws_ros2_camera/build/ros2_opencv/build install --record /home/biswash/ws_ros2_camera/build/ros2_opencv/install.log --single-version-externally-managed install_data
+[1.522s] running egg_info
+[1.522s] creating ../../build/ros2_opencv/ros2_opencv.egg-info
+[1.523s] writing ../../build/ros2_opencv/ros2_opencv.egg-info/PKG-INFO
+[1.523s] writing dependency_links to ../../build/ros2_opencv/ros2_opencv.egg-info/dependency_links.txt
+[1.523s] writing entry points to ../../build/ros2_opencv/ros2_opencv.egg-info/entry_points.txt
+[1.523s] writing requirements to ../../build/ros2_opencv/ros2_opencv.egg-info/requires.txt
+[1.523s] writing top-level names to ../../build/ros2_opencv/ros2_opencv.egg-info/top_level.txt
+[1.524s] writing manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[1.526s] reading manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[1.527s] writing manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[1.527s] running build
+[1.527s] running build_py
+[1.527s] creating /home/biswash/ws_ros2_camera/build/ros2_opencv/build
+[1.528s] creating /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib
+[1.528s] creating /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv
+[1.528s] copying ros2_opencv/subscriberImage.py -> /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv
+[1.528s] copying ros2_opencv/objectDetection.py -> /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv
+[1.528s] copying ros2_opencv/cameraPublisher.py -> /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv
+[1.528s] copying ros2_opencv/__init__.py -> /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv
+[1.529s] running install
+[1.529s] running install_lib
+[1.530s] creating /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[1.530s] copying /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv/subscriberImage.py -> /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[1.530s] copying /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv/objectDetection.py -> /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[1.530s] copying /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv/cameraPublisher.py -> /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[1.531s] copying /home/biswash/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv/__init__.py -> /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[1.531s] byte-compiling /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv/subscriberImage.py to subscriberImage.cpython-310.pyc
+[1.532s] byte-compiling /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv/objectDetection.py to objectDetection.cpython-310.pyc
+[1.533s] byte-compiling /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv/cameraPublisher.py to cameraPublisher.cpython-310.pyc
+[1.533s] byte-compiling /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv/__init__.py to __init__.cpython-310.pyc
+[1.534s] running install_data
+[1.534s] creating /home/biswash/ws_ros2_camera/install/ros2_opencv/share/ament_index
+[1.534s] creating /home/biswash/ws_ros2_camera/install/ros2_opencv/share/ament_index/resource_index
+[1.534s] creating /home/biswash/ws_ros2_camera/install/ros2_opencv/share/ament_index/resource_index/packages
+[1.534s] copying resource/ros2_opencv -> /home/biswash/ws_ros2_camera/install/ros2_opencv/share/ament_index/resource_index/packages
+[1.535s] copying package.xml -> /home/biswash/ws_ros2_camera/install/ros2_opencv/share/ros2_opencv
+[1.535s] running install_egg_info
+[1.537s] Copying ../../build/ros2_opencv/ros2_opencv.egg-info to /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv-0.0.0-py3.10.egg-info
+[1.538s] running install_scripts
+[1.566s] Installing publisher_node script to /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/ros2_opencv
+[1.566s] Installing subscriber_node script to /home/biswash/ws_ros2_camera/install/ros2_opencv/lib/ros2_opencv
+[1.566s] writing list of installed files to '/home/biswash/ws_ros2_camera/build/ros2_opencv/install.log'
+[1.601s] Invoked command in '/home/biswash/ws_ros2_camera/src/ros2_opencv' returned '0': PYTHONPATH=/home/biswash/ws_ros2_camera/build/ros2_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biswash/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_opencv build --build-base /home/biswash/ws_ros2_camera/build/ros2_opencv/build install --record /home/biswash/ws_ros2_camera/build/ros2_opencv/install.log --single-version-externally-managed install_data
